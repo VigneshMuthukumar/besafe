@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sea" >
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:text="Prefered contact"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/contact"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/search"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginRight="17dp"
+        android:src="@drawable/precontacts" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/search"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="7dp"
+        android:text="Search"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginRight="63dp"
+        android:src="@drawable/cloud" />
+
+</RelativeLayout>

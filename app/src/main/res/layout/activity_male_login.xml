@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgimage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bgtrans" >
+
+
+        <EditText
+            android:id="@+id/malename"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/rect"
+            android:ems="10"
+            android:hint="Enter Name" >
+
+            <requestFocus />
+        </EditText>
+        <EditText
+            android:id="@+id/malemail"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="Mail id"
+            android:inputType="textWebEmailAddress" />
+
+        <EditText
+            android:id="@+id/malemobile"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"
+            android:background="@drawable/rect"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="Enter Mobile Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/malelocation"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:background="@drawable/rect"
+            android:ems="10"
+            android:hint="Location" />
+
+        <Button
+            android:id="@+id/get"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="getlocation"
+            android:textColor="#ffffff"
+            android:background="@drawable/rect"
+            android:layout_marginTop="20dp"
+            android:text="Get" />
+
+        <EditText
+            android:id="@+id/logval"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:ems="10"
+            android:hint="Longitude Value" />
+
+        <EditText
+            android:id="@+id/lotval"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:ems="10"
+            android:hint="Latitude Value" />
+
+        <Button
+            android:id="@+id/malesubmit"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:text="Save" />
+    </LinearLayout>
+
+</ScrollView>
